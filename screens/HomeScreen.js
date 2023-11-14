@@ -25,6 +25,8 @@ import {
   import AsyncStorage from "@react-native-async-storage/async-storage";
   import { UserType } from "../UserContext";
   import jwt_decode from "jwt-decode";
+ 
+
   
   const HomeScreen = () => {
     const list = [
@@ -312,8 +314,8 @@ import {
             >
               <Ionicons name="location-outline" size={24} color="black" />
   
-              {/* <Pressable> */}
-              {/* {selectedAddress ? (
+              <Pressable>
+             {selectedAddress ? (
                   <Text>
                     Deliver to {selectedAddress?.name} - {selectedAddress?.street}
                   </Text>
@@ -322,9 +324,9 @@ import {
                       Add a Address
                   </Text>
                 )}
-              </Pressable> */}
+              </Pressable> 
   
-              {/* <MaterialIcons name="keyboard-arrow-down" size={24} color="black" /> */}
+            <MaterialIcons name="keyboard-arrow-down" size={24} color="black" /> 
             </Pressable>
   
             <ScrollView horizontal showsHorizontalScrollIndicator={false}>
@@ -550,7 +552,7 @@ import {
   
            <ScrollView horizontal showsHorizontalScrollIndicator={false}>
               {/*  already added addresses */}
-              {/* {addresses?.map((item, index) => (
+              {addresses?.map((item, index) => (
                 <Pressable
                 onPress={() => setSelectedAdress(item)}
                   style={{
@@ -596,7 +598,7 @@ import {
                     India, Bangalore
                   </Text>
                 </Pressable>
-              ))}*/}
+              ))}
   
               <Pressable
                 onPress={() => {
