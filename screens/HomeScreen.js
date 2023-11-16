@@ -595,7 +595,7 @@ import {
                     numberOfLines={1}
                     style={{ width: 130, fontSize: 13, textAlign: "center" }}
                   >
-                    India, Bangalore
+                    India, Kanpur
                   </Text>
                 </Pressable>
               ))}

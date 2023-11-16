@@ -31,8 +31,8 @@ import {
           const decodedToken = jwt_decode(token);
        
           const userId = decodedToken.userId;
-       
-          setUserId(userId)
+          console.log(userId);
+        
          
       }
   
