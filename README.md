@@ -38,7 +38,7 @@ This Amazon Clone E-Commerce App aims to replicate the core functionalities of t
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/Mohd-Fuzail/Amazon-Clone.git
+   git clone https://github.com/Mohd-Fuzail/Amazon-Clone-App.git
    ```
 
 2. Navigate to the project directory:
